@@ -1,3 +1,7 @@
-<p>
-  home works!
-</p>
+<h3>Pais de habla española</h3>
+
+<ul>
+  <li *ngFor="let pais of paises">
+    Nombre: {{ pais.name }} - Población: {{ pais.population | number}}
+  </li>
+</ul>
